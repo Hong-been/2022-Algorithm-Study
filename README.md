@@ -3,7 +3,7 @@
 ## Programming Language
 - JavaScript
 
-## 알고리즘 문제 사이트 
+## 알고리즘 문제
 programmers: https://programmers.co.kr/learn/challenges
 
 | Title | Solution | Level |
