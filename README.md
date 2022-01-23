@@ -13,5 +13,4 @@ programmers: https://programmers.co.kr/learn/challenges
 | 멀쩡한 사각형 | | Level 2 | 
 | [1차] 추석 트래픽 | | Level 3 |
 | N으로 표현 | | Level 3 | 
-|
 
