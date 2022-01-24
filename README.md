@@ -1,13 +1,14 @@
 # 2022-Algorithm-Study
 
-## Programming Language
+### Programming Language
 - JavaScript
 
-## 알고리즘 문제
+### 알고리즘 문제
 programmers: https://programmers.co.kr/learn/challenges
 
 ### 폴더 구조: 프로그래머스/Level #/Title.js
 
+<br>
 | Title | Solution | Level |
 | --- | --- | --- |
 | 문자열 압축 | | Level 2 |
