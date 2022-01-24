@@ -12,7 +12,15 @@ programmers: https://programmers.co.kr/learn/challenges
 
 <br>
 
-### Level 2.
+
+### 📍Level 1.
+
+|#  | Title             | Solution |  Date     |
+|:---:| ----------------- | -------- | -------- |
+|1|신규아이디 추천||
+|2|신고결과받기||
+
+### 📍Level 2.
 
 |#  | Title             | Solution |  Date     |
 |:---:| ----------------- | -------- | -------- |
@@ -34,7 +42,7 @@ programmers: https://programmers.co.kr/learn/challenges
 
 
 
-### Level 3.
+### 📍Level 3.
 
 |#  | Title             | Solution |  Date     |
 |:---:| ----------------- | -------- | -------- |
