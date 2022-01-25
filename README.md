@@ -5,7 +5,7 @@
 - programmers: https://programmers.co.kr/learn/challenges
 
 ### 📁 폴더 구조
-프로그래머스/Level #/title.js
+- 프로그래머스/Level #/title.js
 
 <br>
 
