@@ -1,5 +1,5 @@
 # 2022-Algorithm-Study
-- JavaScript로 푼 알고리즘 문제입니다.
+JavaScript로 푼 알고리즘 문제입니다.
 
 ### 💻 알고리즘 문제 사이트
 - programmers: https://programmers.co.kr/learn/challenges
