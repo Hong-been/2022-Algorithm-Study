@@ -2,9 +2,8 @@
 
 /*
 수빈 Solution #1
-S: s.length
-N: numArr.length
-time: O(S+N)
+N: s.length
+time: O(N)
 space: O(N)
 */
 function solution(s) {
@@ -22,9 +21,8 @@ function solution(s) {
 
 /*
 수빈 Solution #2
-S: s.length
-N: arr.length
-time: O(S+N)
+N: s.length
+time: O(N)
 space: O(N)
 */
 // Solution #2
