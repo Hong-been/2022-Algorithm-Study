@@ -4,7 +4,7 @@
 홍빈
 나머지가 0이 나오면 0을 4로바꾸고 몫을 하나뺀다.
 time O(n)
-space O(1)
+space O(1) + O(ans.length) for answer
 */
 function solution(n) {
 	const ans = [];
@@ -31,7 +31,7 @@ function solution(n) {
 N: n.length
 R: res.length
 time: O(N)
-space: O(R)
+space: O(1) + O(R) for answer 
 */
 function solution(n) {
   let res = "";
