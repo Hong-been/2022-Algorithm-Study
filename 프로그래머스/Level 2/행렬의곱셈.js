@@ -2,8 +2,10 @@
 
 /*
 수빈
-time: O()
-space: O(A행 * B열)
+N1 :arr1.length, M1 : arr1[0].length
+N2 : arr2.length, M2: arr2[0].length
+time: O(N1 * M2 * (M1*N2))
+space: O(N1 * M2)
 */
 function solution(arr1, arr2) {
   var answer = Array.from(Array(arr1.length), ()=> Array(arr2[0].length).fill(0));

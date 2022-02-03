@@ -29,8 +29,8 @@ space: O(N)
 function solution(s) {
   const arr = s.split(" ");
   return Math.min(...arr)+" "+Math.max(...arr);
+}
 
-  
 // 홍빈
 function solution(s) {
   const nums = s.split(' ');

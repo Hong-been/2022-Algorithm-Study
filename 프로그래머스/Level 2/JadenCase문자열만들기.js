@@ -3,7 +3,7 @@
 /*
 수빈
 N: s.length
-time: O(N)
+time: O(N^2)
 space: O(N)
 */
 function solution(s) {

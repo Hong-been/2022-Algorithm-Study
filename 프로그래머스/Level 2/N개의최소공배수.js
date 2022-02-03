@@ -2,9 +2,7 @@
 
 /*
 수빈
-N: arr.length
-time: O(N)
-space: O(1)
+유클리드 호제법 time: O(logN) -> N은 두 수중 큰 수
 */
 function solution(arr) {
   let answer = arr[0];

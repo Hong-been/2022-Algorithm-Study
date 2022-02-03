@@ -30,7 +30,7 @@ function solution(n) {
 수빈 Solution #1
 N: n.length
 R: res.length
-time: O(N)
+time: O(log3(N))
 space: O(1) + O(R) for answer 
 */
 function solution(n) {
