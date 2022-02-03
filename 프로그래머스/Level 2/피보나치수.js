@@ -20,8 +20,10 @@ function solution(n) {
 
 
 // 홍빈
+// time O(n)
+// space O(1)
 function solution(n) {
-	let dp = [0, 1, 1];
+  let dp = [0, 1, 1];
 
 	for (let i = 3; i <= n; i++) {
 		const fib = (dp[1] % 1234567) + (dp[2] % 1234567);

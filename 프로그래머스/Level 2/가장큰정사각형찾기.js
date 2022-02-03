@@ -34,7 +34,7 @@ function solution(board) {
 수빈
 N: board.length
 M: board[0].length
-time: O(N*M)
+time: O(NM)
 space: O(1)
 */
 function solution(board)

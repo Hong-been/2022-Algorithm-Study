@@ -29,8 +29,9 @@ function gcd(a, b){
 }
 
 // 홍빈
+// 유클리드 호제법 : time O(max(a,b))
 function solution(arr) {
-	const getLCD = (a, b) => {
+  const getLCD = (a, b) => {
 		const getGCD = (a, b) => {
 			while (b) {
 				let r = a % b;

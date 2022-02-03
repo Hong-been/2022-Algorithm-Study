@@ -4,22 +4,23 @@
 수빈
 N: s.length
 time: O(N^2)
-space: O(N)
+space: O(N) for answer
 */
 function solution(s) {
-  var answer = '';
-  for(let i=0; i<s.length; i++){
-      if(i===0 || s[i-1]=== " "){
-          answer += s[i].toUpperCase();
-      } else {
-          answer += s[i].toLowerCase();
-      }
-  }
-  return answer;
+	var answer = "";
+	for (let i = 0; i < s.length; i++) {
+		if (i === 0 || s[i - 1] === " ") {
+			answer += s[i].toUpperCase();
+		} else {
+			answer += s[i].toLowerCase();
+		}
+	}
+	return answer;
 }
 
-
 // 홍빈
+// time O(N)
+// space O(N) for answer
 function solution(s) {
 	return s
 		.split("")
@@ -30,4 +31,3 @@ function solution(s) {
 		})
 		.join("");
 }
-
