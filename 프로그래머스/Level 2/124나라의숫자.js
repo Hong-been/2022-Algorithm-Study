@@ -28,10 +28,10 @@ function solution(n) {
 
 /*
 수빈 Solution #1
+N: n.length
 R: res.length
-B: 콜스택에 쌓이는 backtracking 함수 개수 = n의 몫이 3 미만일때까지 나누는 횟수
-time: O(B)
-space: O(R+B)
+time: O(N)
+space: O(R)
 */
 function solution(n) {
   let res = "";
@@ -61,8 +61,8 @@ function backtracking(n, res){
 
 /*
 수빈 Solution #2
-time: O(B)
-space: O(R+B)
+time: O(N)
+space: O(R)
 */
 function change124(n) {
   var src = [4,1,2];
