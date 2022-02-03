@@ -3,8 +3,8 @@
 /*
 홍빈
 나머지가 0이 나오면 0을 4로바꾸고 몫을 하나뺀다.
-time O(n)
-space O(1)
+time O(logN)
+space O(1) + O(N) for answer
 */
 function solution(n) {
 	const ans = [];
@@ -34,29 +34,29 @@ time: O(B)
 space: O(R+B)
 */
 function solution(n) {
-  let res = "";
-  res = backtracking(n, res);
-  
-  return res;
+	let res = "";
+	res = backtracking(n, res);
+
+	return res;
 }
 
-function backtracking(n, res){
-  let tempQ = parseInt(n/3); 
-  let tempR = n%3; 
-  if(tempR === 0){
-      tempQ = tempQ-1; 
-      tempR = 3;
-  }
-  if(tempQ >= 3){
-      res = backtracking(tempQ, res);
-  }
-  
-  if(tempR === 3) tempR =4;
+function backtracking(n, res) {
+	let tempQ = parseInt(n / 3);
+	let tempR = n % 3;
+	if (tempR === 0) {
+		tempQ = tempQ - 1;
+		tempR = 3;
+	}
+	if (tempQ >= 3) {
+		res = backtracking(tempQ, res);
+	}
 
-  if(tempQ < 3 && tempQ !== 0) res += tempQ.toString();
-  res += tempR.toString();
+	if (tempR === 3) tempR = 4;
 
-  return res;
+	if (tempQ < 3 && tempQ !== 0) res += tempQ.toString();
+	res += tempR.toString();
+
+	return res;
 }
 
 /*
@@ -65,12 +65,12 @@ time: O(B)
 space: O(R+B)
 */
 function change124(n) {
-  var src = [4,1,2];
+	var src = [4, 1, 2];
 
-  var result = '';
-  while(n) {
-    result = src[n%3] + result;
-    n = Math.floor((n-1)/3);
-  }
-  return result;
+	var result = "";
+	while (n) {
+		result = src[n % 3] + result;
+		n = Math.floor((n - 1) / 3);
+	}
+	return result;
 }

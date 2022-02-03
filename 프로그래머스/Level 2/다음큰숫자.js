@@ -7,22 +7,22 @@ time: O(log2(N!/(n-1)!))
 space: O(1)
 */
 function solution(n) {
-  let nextOneCnt = 0;
-  let oneCnt = convertBinary(n);
-  while(nextOneCnt !== oneCnt){
-      n=n+1;
-      nextOneCnt = convertBinary(n);
-  }
-  return n;
+	let nextOneCnt = 0;
+	let oneCnt = convertBinary(n);
+	while (nextOneCnt !== oneCnt) {
+		n = n + 1;
+		nextOneCnt = convertBinary(n);
+	}
+	return n;
 }
 
-function convertBinary(n){
-  let oneCnt=0;
-  while(n/2 !== 0){
-      if(n%2 === 1) oneCnt++;
-      n=parseInt(n/2);
-  }
-  return oneCnt;
+function convertBinary(n) {
+	let oneCnt = 0;
+	while (n / 2 !== 0) {
+		if (n % 2 === 1) oneCnt++;
+		n = parseInt(n / 2);
+	}
+	return oneCnt;
 }
 
 /*
@@ -31,17 +31,16 @@ time: O()
 space: O(1)
 */
 function solution(n) {
-  let oneCnt = n.toString(2).match(/1/g).length;
-  while(n++){
-      if(oneCnt === n.toString(2).match(/1/g).length) return n;
-  }
+	let oneCnt = n.toString(2).match(/1/g).length;
+	while (n++) {
+		if (oneCnt === n.toString(2).match(/1/g).length) return n;
+	}
 }
-
 
 /*
 홍빈
 하나씩 키우면서 2진수로 바꾸고 거기서 1의갯수를 세서 비교
-time O(?)
+time O(NlogN)
 space O(1)
 */
 function solution(n) {
