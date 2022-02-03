@@ -1,20 +1,23 @@
 /*
 홍빈
+나머지가 0이 나오면 0을 4로바꾸고 몫을 하나뺀다.
 time O(n)
 space O(1)
 */
 function solution(n) {
-	const nums = [4, 1, 2];
-	let ans = [];
+	const ans = [];
+	const N = 4;
 
 	while (n) {
 		let r = n % 3;
 		n = Math.floor(n / 3);
 
-		ans.push(nums[r]);
-		if (r === 0) n -= 1;
+		if (r === 0) {
+			n--;
+			r = N;
+		}
+		ans.push(r);
 	}
 
-	console.log(ans);
 	return ans.reverse().join("");
 }
