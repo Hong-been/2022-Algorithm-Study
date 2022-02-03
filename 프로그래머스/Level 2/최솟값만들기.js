@@ -3,7 +3,7 @@
 /*
 수빈
 N: A.length = B.length
-time: O(N)
+time: O(NlogN+N)
 space: O(1)
 */
 function solution(A, B) {
