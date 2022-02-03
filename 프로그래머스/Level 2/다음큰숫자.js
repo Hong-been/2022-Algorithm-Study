@@ -3,7 +3,7 @@
 /*
 수빈 Solution #1
 N: 다음 큰 숫자
-time: O(log2(N!/(n-1)!))
+time: O(NlogN)
 space: O(1)
 */
 function solution(n) {
@@ -27,7 +27,7 @@ function convertBinary(n){
 
 /*
 수빈 Solution #2
-time: O()
+time: O(NlogN)
 space: O(1)
 */
 function solution(n) {
@@ -41,7 +41,7 @@ function solution(n) {
 /*
 홍빈
 하나씩 키우면서 2진수로 바꾸고 거기서 1의갯수를 세서 비교
-time O(?)
+time O(NlogN)
 space O(1)
 */
 function solution(n) {
