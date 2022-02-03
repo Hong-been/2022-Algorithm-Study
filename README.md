@@ -55,6 +55,7 @@ JavaScript로 푼 알고리즘 문제입니다.
 | 12  | [피보나치수](https://programmers.co.kr/learn/courses/30/lessons/12945)            |  [피보나치수.js](./프로그래머스/Level%202/피보나치수.js)                                                             |   "       |      |
 | 13  | [행렬의곱셈](https://programmers.co.kr/learn/courses/30/lessons/12949)            |   [행렬의곱셈.js](./프로그래머스/Level%202/행렬의곱셈.js)                                                            |    "      |      |
 | 14  | [JadenCase문자열만들기](https://programmers.co.kr/learn/courses/30/lessons/12951) | [JadenCase문자열만들기.js](./프로그래머스/Level%202/JadenCase문자열만들기.js)                                                              |      "    |      |
+|15| [N개의최소공배수](https://programmers.co.kr/learn/courses/30/lessons/12953)| [N개의최소공배수.js](./프로그래머스/Level%202/N개의최소공배수.js) |"|🔥|
 | 15  | [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586)       |                                                              |          |      |
 | 16  | [타겟넘버](https://programmers.co.kr/learn/courses/30/lessons/43165)       |                                                              |          |      |
 | 17  | [짝지어제거하기](https://programmers.co.kr/learn/courses/30/lessons/12973)       |                                                              |          |      |
