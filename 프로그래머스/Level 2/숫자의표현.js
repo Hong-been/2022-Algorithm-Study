@@ -2,7 +2,7 @@
 
 /*
 수빈 Solution #1
-time: O(N^2) ?
+time: O(N^2)
 space: O(1)
 */
 function solution(n) {
