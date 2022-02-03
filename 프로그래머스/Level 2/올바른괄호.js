@@ -1,7 +1,7 @@
 // 올바른 괄호
 
 // return count === 0 ? true : false; 효율성 통과
-// return count > 0 ? false :true; 효율성 실패
+// return count > 0 ? false : true; 효율성 실패
 
 /**
  * 홍빈, N: s.length
