@@ -2,7 +2,7 @@
 수빈
 N: str1.length
 M: str2.length
-time: O(N) + O(M) + O(N*M^2) + O(M)
+time: O(N) + O(M) + O(N*M^3) + O(M)
 space: O(N) + O(M) + O(Math.min(N, M)) + O(N+M) 
 */
 function solution(str1, str2) {

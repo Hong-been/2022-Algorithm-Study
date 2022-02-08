@@ -1,7 +1,8 @@
 /*
 수빈
-time:
-space:
+C: course length, O: orders array length, N: order length, K: course 값중에 N/2에 가장 가까운 수
+time: O(C * O * NlogN * C(N,K))
+space: O(C(N,K)) for map + O(C(N,K)) for answer
 */
 function solution(orders, course) {
 	var answer = [];
@@ -33,16 +34,7 @@ function combination(size, order, combMap, curStr, start){
 			}
 			return;
 	}
-	/*
-	ABCFG 0~4까지
-	comb("",0) -> c("A",1) -> c("AB",2)
-						 -> c("A",2) -> c("AC",2)
-						 -> c("A",3) -> AF
-						 -> c("A",4) -> AG
-						 -> c("B",2)
-						 -> c("B",3)
-						 -> c("B",4)
-	*/
+
 	for(let i=start; i<orderArr.length; i++){
 			combination(size, order, combMap, curStr+orderArr[i], i+1);
 	}
