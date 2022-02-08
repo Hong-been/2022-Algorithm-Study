@@ -1,7 +1,7 @@
 /*
 홍빈
 N: id_list length, M: report length
-- time O(max(N,M))
+- time O(N + M)
 - space O(N) + O(N) for answer
 
 map { 
