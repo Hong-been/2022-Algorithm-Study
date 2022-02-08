@@ -46,6 +46,7 @@ function combination(size, order, combMap, curStr, start) {
 	*/
 	for (let i = start; i < orderArr.length; i++) {
 		combination(size, order, combMap, curStr + orderArr[i], i + 1);
+  }
 }
 
 function getMaxOrder(map, answer) {
