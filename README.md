@@ -62,7 +62,7 @@ JavaScript로 푼 알고리즘 문제입니다.
 | 17  | [타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165)               | [solution.js](./프로그래머스/Level%202/타겟넘버.js)|     "    |  |
 | 18  | [짝지어 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12973)         | [solution.js](./프로그래머스/Level%202/짝지어제거하기.js) | " | 👻 |
 | 19  | [메뉴 리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411)             | [solution.js](./프로그래머스/Level%202/메뉴리뉴얼.js) | " |🔥 |
-| 20  | [괄호 변환](https://programmers.co.kr/learn/courses/30/lessons/60058)               | [solution.js](./프로그래머스/Level%202/괄호변환.js)  | " | |
+| 20  | [괄호 변환](https://programmers.co.kr/learn/courses/30/lessons/60058)               | [solution.js](./프로그래머스/Level%202/괄호변환.js)  | " | 👻|
 | 21  | [[1차]뉴스 클러스터링](https://programmers.co.kr/learn/courses/30/lessons/17677)   | [solution.js](./프로그래머스/Level%202/[1차]뉴스클러스터링.js) | " | 🔥|
 | 22  | [행렬테두리 회전하기](https://programmers.co.kr/learn/courses/30/lessons/77485)   |  |  | |
 | 23  | [거리두기 확인하기](https://programmers.co.kr/learn/courses/30/lessons/81302)   |  |  | |
@@ -75,4 +75,4 @@ JavaScript로 푼 알고리즘 문제입니다.
 
 |  #  | Title                                                                         | Solution                                                          |   Date   | Note |
 | :-: | ----------------------------------------------------------------------------- | ----------------------------------------------------------------- | :------: | :--: |
-|  1  | [[1차] 추석 트래픽](https://programmers.co.kr/learn/courses/30/lessons/17676) | [[1차]추석트래픽.js](./프로그래머스/Level%203/[1차]추석트래픽.js) | 22.01.24 |  👻  |
+|  1  | [[1차] 추석 트래픽](https://programmers.co.kr/learn/courses/30/lessons/17676) | [solution.js](./프로그래머스/Level%203/[1차]추석트래픽.js) | 22.01.24 |  👻  |
