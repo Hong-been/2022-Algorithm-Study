@@ -1,7 +1,5 @@
 /*
 수빈
-time:
-space:
 */
 function solution(p) {
   var answer = '';
