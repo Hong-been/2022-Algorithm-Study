@@ -35,12 +35,12 @@ space: O(1) + O(R) for answer
 */
 function solution(n) {
 	let res = "";
-	res = backtracking(n, res);
+	res = dfs(n, res);
 
 	return res;
 }
 
-function backtracking(n, res) {
+function dfs(n, res) {
 	let tempQ = parseInt(n / 3);
 	let tempR = n % 3;
 	if (tempR === 0) {
@@ -48,7 +48,7 @@ function backtracking(n, res) {
 		tempR = 3;
 	}
 	if (tempQ >= 3) {
-		res = backtracking(tempQ, res);
+		res = dfs(tempQ, res);
 	}
 
 	if (tempR === 3) tempR = 4;
