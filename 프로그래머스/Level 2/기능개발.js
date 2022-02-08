@@ -10,9 +10,8 @@ function solution(progresses, speeds) {
   for(let i=0; i<progresses.length; i++){
       left.push(Math.ceil((100 - progresses[i])/speeds[i]));
   }
-  //console.log(left)
-  // 5 10 1 1 20 1
-  let complete = left[0]; //5
+
+  let complete = left[0];
   let cnt = 1;
   for(let i=1; i<left.length; i++){
       if(complete>=left[i]) cnt++;

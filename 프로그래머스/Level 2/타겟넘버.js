@@ -2,7 +2,7 @@
 수빈
 N: numbers.length
 time: O(2^N)
-space: O(2^N)
+space: O(N) for call stack
 */
 function solution(numbers, target) {
 	var answer = 0;
