@@ -25,8 +25,8 @@ function solution(p, location) {
 
 /*
 수빈
-time: O(N^2)
-space: O(N) ..?
+time: O(N^2 + N)
+space: O(N)
 */
 /*
 대기목록에서 가장 앞 J를 꺼냄.

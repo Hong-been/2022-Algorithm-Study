@@ -62,7 +62,7 @@ function solution(r, c, queries) {
 /*
 수빈
 R: matrix row, C: matrix column, A: queries.length
-- time O(RCQ)
+- time O(RC + QRC)
 - space O(RC) + O(A) for answer
 */
 function solution(rows, columns, queries) {
