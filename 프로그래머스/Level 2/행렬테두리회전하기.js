@@ -13,8 +13,9 @@ function solution(r, c, queries) {
       let min=r*c;
       const st=[];
 
-      if(r1 > r2) [r1,r2] = [r2,r1];
-      if(c1 > c2) [c1,c2] = [c2,c1];
+      // 문제에서 항상 셋팅되어서 주어짐
+      // if(r1 > r2) [r1,r2] = [r2,r1];
+      // if(c1 > c2) [c1,c2] = [c2,c1];
       
       for(let c=c1;c<c2;c++){
         st.push(board[r1][c]);

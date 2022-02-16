@@ -3,7 +3,6 @@
 - time O()
 - space
 */
-
 function solution(new_id) {
   const s2 = new_id.replace(/[A-Z]/g, x => x.toLowerCase()).match(/[a-z0-9\-\_\.]/g).join('');
   const s3 = s2.replace(/\.{2,}/g, x=>'.');
@@ -26,13 +25,13 @@ function solution(new_id) {
 }
 
 function bestsolution(new_id) {
- const answer = new_id
+  const answer = new_id
      .toLowerCase() // 1
      .replace(/[^\w-_.]/g, '') // 2
      .replace(/\.+/g, '.') // 3
      .replace(/^\.|\.$/g, '') // 4
      .replace(/^$/, 'a') // 5
      .slice(0, 15).replace(/\.$/, ''); // 6
- const len = answer.length;
- return len > 2 ? answer : answer + answer.charAt(len - 1).repeat(3 - len);
+  const len = answer.length;
+  return len > 2 ? answer : answer + answer.charAt(len - 1).repeat(3 - len);
 }

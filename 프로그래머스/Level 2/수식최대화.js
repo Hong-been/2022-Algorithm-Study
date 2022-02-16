@@ -1,7 +1,7 @@
 /*
 홍빈
-- time O(logO)?
-- space O()...하
+- time O()
+- space O()
 Divied and conquer
 */
 function solution(ex) {
@@ -27,12 +27,9 @@ function operate(order,ex){
       const nums=curStr.split(cur).map(v=>recursion(index+1, v)); 
       
       const result = nums.reduce((acc,v)=>{
-          if(cur==='+')
-              return acc + v;
-          if(cur==='-')
-              return acc-v;
-          if(cur==='*')
-              return acc*v;
+          if(cur==='+') return acc + v;
+          if(cur==='-') return acc-v;
+          if(cur==='*') return acc*v;
       });
       
       return result;
