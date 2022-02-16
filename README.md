@@ -36,7 +36,7 @@ JavaScript로 푼 알고리즘 문제입니다.
 
 |  #  | Title                                                                       | Solution | Date | Note |
 | :-: | --------------------------------------------------------------------------- | -------- | :--: | :--: |
-|  1  | [신규아이디 추천](https://programmers.co.kr/learn/courses/30/lessons/72410) |          |      |  👻    |
+|  1  | [신규아이디 추천](https://programmers.co.kr/learn/courses/30/lessons/72410) |[solution.js](./프로그래머스/Level%201/신규아이디추천.js) | 22.02.16 |  👻 🔥    |
 |  2  | [신고 결과 받기](https://programmers.co.kr/learn/courses/30/lessons/92334)    |[solution.js](./프로그래머스/Level%201/신고결과받기.js) | 22.02.08 |  🔥    |
 
 ### 📍Level 2.
