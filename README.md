@@ -64,12 +64,18 @@ JavaScript로 푼 알고리즘 문제입니다.
 | 19  | [메뉴 리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411)             | [solution.js](./프로그래머스/Level%202/메뉴리뉴얼.js) | " |🔥 |
 | 20  | [괄호 변환](https://programmers.co.kr/learn/courses/30/lessons/60058)               | [solution.js](./프로그래머스/Level%202/괄호변환.js)  | " | 👻|
 | 21  | [[1차]뉴스 클러스터링](https://programmers.co.kr/learn/courses/30/lessons/17677)   | [solution.js](./프로그래머스/Level%202/[1차]뉴스클러스터링.js) | " | 🔥|
-| 22  | [행렬테두리 회전하기](https://programmers.co.kr/learn/courses/30/lessons/77485)   |  |  |👻 |
-| 23  | [거리두기 확인하기](https://programmers.co.kr/learn/courses/30/lessons/81302)   |  |  |👻 |
-| 24  | [수식 최대화](https://programmers.co.kr/learn/courses/30/lessons/67257)   |  | |👻 |
-| 25  | [튜플](https://programmers.co.kr/learn/courses/30/lessons/64065)   |  | | |
-| 26  | [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587)   | 
-| 27  | [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746)   |                                                                               |          |    👻   |
+| 22  | [행렬테두리 회전하기](https://programmers.co.kr/learn/courses/30/lessons/77485)   | [solution.js](./프로그래머스/Level%202/행렬테두리회전하기.js) | 22.02.16 |👻 |
+| 23  | [거리두기 확인하기](https://programmers.co.kr/learn/courses/30/lessons/81302)   | [solution.js](./프로그래머스/Level%202/거리두기확인하기.js) | " |👻 🔥|
+| 24  | [수식 최대화](https://programmers.co.kr/learn/courses/30/lessons/67257)   |[solution.js](./프로그래머스/Level%202/수식최대화.js)  | " |👻 🔥|
+| 25  | [튜플](https://programmers.co.kr/learn/courses/30/lessons/64065)   |[solution.js](./프로그래머스/Level%202/튜플.js)  | " | |
+| 26  | [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587)   |[solution.js](./프로그래머스/Level%202/프린터.js) |" | |
+| 27  | [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746)   |[solution.js](./프로그래머스/Level%202/가장큰수.js) | " |  👻 🔥  |
+| 28  | [빛의 경로 사이클](https://programmers.co.kr/learn/courses/30/lessons/86052)   | | | |
+| 28  | [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839)   | | | |
+| 28  | [조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860)   | | | |
+| 28  | [게임 맵 최단거리](https://programmers.co.kr/learn/courses/30/lessons/1844)   | | | |
+| 28  | [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412)   | | | |
+| 28  | [후보 키](https://programmers.co.kr/learn/courses/30/lessons/42890)   | | | |
 
 ### 📍Level 3.
 
