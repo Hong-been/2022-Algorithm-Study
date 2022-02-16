@@ -12,3 +12,23 @@ function solution(numbers) {
    
    return answer[0]==='0'?'0':answer;
 }
+
+/*
+수빈
+time: O(N+NlogN+N)
+space: O(N)
+*/
+/*
+[3, 30, 34, 5, 9]
+95
+
+330
+303
+*/
+function solution(numbers) {
+  var answer = numbers.map(num => num.toString())
+                      .sort((a,b) => (b+a) - (a+b))
+                      .join("");
+  
+  return answer[0]==="0" ? "0" : answer;
+}
