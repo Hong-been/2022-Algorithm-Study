@@ -6,7 +6,8 @@ JavaScript로 푼 알고리즘 문제입니다.
 
 ### 💻 알고리즘 문제 사이트
 
-- programmers: https://programmers.co.kr/learn/challenges
+- Programmers: https://programmers.co.kr/learn/challenges
+- Leetcode : https://leetcode.com/problemset/all/
 
 <br>
 
@@ -23,6 +24,8 @@ JavaScript로 푼 알고리즘 문제입니다.
 │   │   └── 신고결과받기.js
 │   ├── Level 2
 │   └── Level 3
+├── leetcode
+│   └── js
 └── README.md
 ```
 
@@ -32,14 +35,14 @@ JavaScript로 푼 알고리즘 문제입니다.
 
 - 홍빈: 👻, 수빈: 🔥
 
-### 📍Level 1.
+### 📍프로그래머스 Level 1.
 
 |  #  | Title                                                                       | Solution | Date | Note |
 | :-: | --------------------------------------------------------------------------- | -------- | :--: | :--: |
 |  1  | [신규아이디 추천](https://programmers.co.kr/learn/courses/30/lessons/72410) |[solution.js](./프로그래머스/Level%201/신규아이디추천.js) | 22.02.16 |  👻 🔥    |
 |  2  | [신고 결과 받기](https://programmers.co.kr/learn/courses/30/lessons/92334)    |[solution.js](./프로그래머스/Level%201/신고결과받기.js) | 22.02.08 |  🔥    |
 
-### 📍Level 2.
+### 📍프로그래머스 Level 2.
 
 |  #  | Title                                                                              | Solution                                                                      |   Date   | Note  |
 | :-: | ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | :------: | ----- |
@@ -77,8 +80,19 @@ JavaScript로 푼 알고리즘 문제입니다.
 | 28  | [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412)   | | | |
 | 28  | [후보 키](https://programmers.co.kr/learn/courses/30/lessons/42890)   | | | |
 
-### 📍Level 3.
+### 📍프로그래머스 Level 3.
 
 |  #  | Title                                                                         | Solution                                                          |   Date   | Note |
 | :-: | ----------------------------------------------------------------------------- | ----------------------------------------------------------------- | :------: | :--: |
 |  1  | [[1차] 추석 트래픽](https://programmers.co.kr/learn/courses/30/lessons/17676) | [solution.js](./프로그래머스/Level%203/[1차]추석트래픽.js) | 22.01.24 |  👻  |
+
+### 📍Leetcode
+
+|  #  | Title                                                                         | Solution                                                          |   Date   | Note |
+| :-: | ----------------------------------------------------------------------------- | ----------------------------------------------------------------- | :------: | :--: |
+|  1  | [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | |  |   |
+|  2  | [542. 01 Matrix](https://leetcode.com/problems/01-matrix/) | |  |   |
+|  3  | [78. Subsets](https://leetcode.com/problems/subsets/) | |  |   |
+
+
+
