@@ -57,3 +57,47 @@ var updateMatrix = function (mat) {
 
 	return mat;
 };
+
+
+/*
+수빈
+0을 queue에다가 다 넣음.
+1은 MAX로 바꿔줌.
+
+queue에서 하나씩 빼면서, MAX만나면 갱신해줌.
+algo: BFS
+time: O(m*n)
+space: O(m*n)
+*/
+var updateMatrix = function(mat) {
+  const queue = [];
+  for(let i=0; i<mat.length; i++){
+      for(let j=0; j<mat[0].length; j++){
+          if(mat[i][j]===0){
+              queue.push([i,j]);
+          }
+          else {
+              mat[i][j]=Number.MAX_VALUE;
+          }
+      }
+  }
+  const dir = [[-1,0],[0,1],[1,0],[0,-1]];
+  let cnt = 0;
+  while(queue.length){
+      cnt++;
+      let qLen = queue.length;
+      for(let i=0; i<qLen; i++){
+          const [x, y] = queue.shift();
+          for(let [dx, dy] of dir){
+              let row = x + dx;
+              let col = y + dy;
+              if(row<0 || col<0 || row>=mat.length || col>=mat[0].length) continue;
+              if(mat[row][col]===Number.MAX_VALUE){
+                  queue.push([row,col]);
+                  mat[row][col]=cnt;
+              }   
+          }
+      }
+  }
+  return mat;
+};

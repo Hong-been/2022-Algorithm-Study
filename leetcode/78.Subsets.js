@@ -29,3 +29,36 @@ var subsets = function (nums) {
 
 	return ans;
 };
+
+
+/*
+수빈
+algo: backtracking
+time: O(2^N)
+space: O(N)..? + 콜스택
+/*
+result: [] [1] [1,2] [1,2,3] [1,3] [2] [2,3] [3]
+([],0)->[]넣음.
+([1],1)->[1]넣음//([1,2],2)->[1,2]넣음//([1,2,3],3)->[1,2,3]넣음//
+([1,3],3)->[1,3]넣음//
+    
+([2],2)->[2]넣음//([2,3],3)->[2,3]넣음//
+([3],3)->[3]넣음//
+*/
+var subsets = function(nums) {
+  let temp = [];
+  let result = [];
+  let index = 0;
+
+  function backtracking(arr, index){
+      //console.log(arr)
+      result.push([...arr]);
+      for(let i=index; i<nums.length; i++){
+          arr.push(nums[i]);
+          backtracking(arr, i+1);
+          arr.pop();
+      }
+  }
+  backtracking(temp, index);
+  return result;
+};

@@ -61,3 +61,53 @@ var orangesRotting = function (grid) {
 
 	return max;
 };
+
+
+/*
+수빈
+algo: BFS
+time: O(m*n)
+space: O(m*n)
+*/
+var orangesRotting = function(grid) {
+  const queue=[];
+  let freshCnt = 0;
+
+  for(let i=0; i<grid.length; i++){
+      for(let j=0; j<grid[0].length; j++){
+          if(grid[i][j]===2){
+              queue.push([i,j]);
+          }
+          else if(grid[i][j]===1){
+              freshCnt++;
+          }
+      }
+  }
+  const dir = [[-1,0],[0,1],[1,0],[0,-1]];
+  let time = 0;
+
+  while(queue.length && freshCnt>0){
+      const qLen = queue.length;
+      for(let i=0; i<qLen; i++){
+          let [qx, qy] = queue.shift();
+          for(const [dx, dy] of dir){
+              const x = qx + dx;
+              const y = qy + dy;
+              if(x<0 || y<0 || x>=grid.length || y>=grid[0].length){
+                  continue;
+              }
+              if(grid[x][y]===0 || grid[x][y]===2){
+                  continue;
+              }
+              if(grid[x][y]===1){
+                  queue.push([x,y]);
+                  grid[x][y]=2;
+                  freshCnt--;
+              }
+          }
+      }
+      time++;
+  }
+
+  return freshCnt === 0 ? time : -1;
+};
