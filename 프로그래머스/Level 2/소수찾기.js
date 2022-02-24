@@ -55,8 +55,6 @@ function permutate(n) {
 
 /*
 수빈
-time: O(N! + logN)
-space: 
 */
 function solution(numbers) {
   var answer = [];
@@ -65,6 +63,7 @@ function solution(numbers) {
   //모든 경우의 수 순열 구하기
   for(let i=1; i<=numArr.length; i++){
       let per_res = getPermutation(numArr,i);
+      //+filter함수 사용해 수정해보기
       per_res.forEach(el => isPrime(parseInt(el)) ? answer.push(parseInt(el)) : answer);
   }
   answer = [...new Set(answer)];
@@ -98,5 +97,3 @@ function getPermutation(arr, selectNum){
   })
   return result;
 }
-
-
