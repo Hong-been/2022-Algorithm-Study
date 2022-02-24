@@ -74,11 +74,11 @@ JavaScript로 푼 알고리즘 문제입니다.
 | 26  | [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587)   |[solution.js](./프로그래머스/Level%202/프린터.js) |" | |
 | 27  | [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746)   |[solution.js](./프로그래머스/Level%202/가장큰수.js) | " |  👻 🔥  |
 | 28  | [빛의 경로 사이클](https://programmers.co.kr/learn/courses/30/lessons/86052)   | | | |
-| 28  | [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839)   | | | |
-| 28  | [조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860)   | | | |
-| 28  | [게임 맵 최단거리](https://programmers.co.kr/learn/courses/30/lessons/1844)   | | | |
-| 28  | [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412)   | | | |
-| 28  | [후보 키](https://programmers.co.kr/learn/courses/30/lessons/42890)   | | | |
+| 29  | [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839)   | | | |
+| 30  | [조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860)   | | | |
+| 31  | [게임 맵 최단거리](https://programmers.co.kr/learn/courses/30/lessons/1844)   | | | |
+| 32  | [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412)   | | | |
+| 33  | [후보 키](https://programmers.co.kr/learn/courses/30/lessons/42890)   | | | |
 
 ### 📍프로그래머스 Level 3.
 
