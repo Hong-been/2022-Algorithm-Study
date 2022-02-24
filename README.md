@@ -25,7 +25,7 @@ JavaScript로 푼 알고리즘 문제입니다.
 │   ├── Level 2
 │   └── Level 3
 ├── leetcode
-│   └── js
+│   └── 992.RottingOrange.js
 └── README.md
 ```
 
@@ -73,12 +73,12 @@ JavaScript로 푼 알고리즘 문제입니다.
 | 25  | [튜플](https://programmers.co.kr/learn/courses/30/lessons/64065)   |[solution.js](./프로그래머스/Level%202/튜플.js)  | " | |
 | 26  | [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587)   |[solution.js](./프로그래머스/Level%202/프린터.js) |" | |
 | 27  | [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746)   |[solution.js](./프로그래머스/Level%202/가장큰수.js) | " |  👻 🔥  |
-| 28  | [빛의 경로 사이클](https://programmers.co.kr/learn/courses/30/lessons/86052)   | | | |
-| 28  | [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839)   | | | |
-| 28  | [조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860)   | | | |
-| 28  | [게임 맵 최단거리](https://programmers.co.kr/learn/courses/30/lessons/1844)   | | | |
-| 28  | [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412)   | | | |
-| 28  | [후보 키](https://programmers.co.kr/learn/courses/30/lessons/42890)   | | | |
+| 28  | [빛의 경로 사이클](https://programmers.co.kr/learn/courses/30/lessons/86052)   |[solution.js](./프로그래머스/Level%202/빛의경로사이클.js) | 22.02.24|👻 |
+| 28  | [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839)   | [solution.js](./프로그래머스/Level%202/소수찾기.js)|" | |
+| 28  | [조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860)   |[solution.js](./프로그래머스/Level%202/조이스틱.js) | "|👻 |
+| 28  | [게임 맵 최단거리](https://programmers.co.kr/learn/courses/30/lessons/1844)   |[solution.js](./프로그래머스/Level%202/게임맵최단거리.js) | "| |
+| 28  | [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412)   | [solution.js](./프로그래머스/Level%202/순위검색.js)|" |👻 |
+| 28  | [후보 키](https://programmers.co.kr/learn/courses/30/lessons/42890)   |[solution.js](./프로그래머스/Level%202/후보키.js) |" |👻 |
 
 ### 📍프로그래머스 Level 3.
 
@@ -90,9 +90,9 @@ JavaScript로 푼 알고리즘 문제입니다.
 
 |  #  | Title                                                                         | Solution                                                          |   Date   | Note |
 | :-: | ----------------------------------------------------------------------------- | ----------------------------------------------------------------- | :------: | :--: |
-|  1  | [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | |  |   |
-|  2  | [542. 01 Matrix](https://leetcode.com/problems/01-matrix/) | |  |   |
-|  3  | [78. Subsets](https://leetcode.com/problems/subsets/) | |  |   |
+|  1  | [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) |[solution.js](./leetcode/994.RottingOranges.js) | 22.02.24 |   |
+|  2  | [542. 01 Matrix](https://leetcode.com/problems/01-matrix/) | [solution.js](./leetcode/542.01Matrix.js)| " |  👻 |
+|  3  | [78. Subsets](https://leetcode.com/problems/subsets/) |[solution.js](./leetcode/78.Subsets.js) | " |   |
 
 
 
