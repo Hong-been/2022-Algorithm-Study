@@ -91,7 +91,7 @@ JavaScript로 푼 알고리즘 문제입니다.
 |  #  | Title                                                                         | Solution                                                          |   Date   | Note |
 | :-: | ----------------------------------------------------------------------------- | ----------------------------------------------------------------- | :------: | :--: |
 |  1  | [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) |[solution.js](./leetcode/994.RottingOranges.js) | 22.02.24 |   |
-|  2  | [542. 01 Matrix](https://leetcode.com/problems/01-matrix/) | [solution.js](./leetcode/542.01Matrix.js)| " |  👻 |
+|  2  | [542. 01 Matrix](https://leetcode.com/problems/01-matrix/) | [solution.js](./leetcode/542.01Matrix.js)| " | 👻 🔥 |
 |  3  | [78. Subsets](https://leetcode.com/problems/subsets/) |[solution.js](./leetcode/78.Subsets.js) | " |   |
 
 
