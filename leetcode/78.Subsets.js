@@ -1,4 +1,4 @@
-/**
+/** 홍빈
  * @param {number[]} nums
  * @return {number[][]}
  
@@ -24,10 +24,27 @@ var subsets = function (nums) {
 			curSet.pop();
 		}
 	};
-
 	dfs([], nums);
-
 	return ans;
+};
+/* 
+time O(2^N) 
+space O(N) 동일한데 Bit Manipulation 으로 품.
+*/
+var subsets = function(nums) {
+  const ans = [];
+  
+  for(let i=0; i<Math.pow(2,nums.length); i++){
+      const curBi = i.toString(2).padStart(nums.length,'0');
+      const curSet = [];
+      
+      for(let c=0;c<nums.length;c++){
+          if(curBi[c]==='1') curSet.push(nums[c]);
+      }
+      ans.push(curSet);
+  }
+  
+  return ans;
 };
 
 
