@@ -90,15 +90,14 @@ JavaScript로 푼 알고리즘 문제입니다.
 
 |  #  | Title   | Solution | Topic |  Date   | Note |
 | :-: | ------- | -------- |:-----:|:------: | :--: |
-|  1  | [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) |[solution.js](./leetcode/994.RottingOranges.js)| | 22.02.24 |   |
-|  2  | [542. 01 Matrix](https://leetcode.com/problems/01-matrix/) | [solution.js](./leetcode/542.01Matrix.js)| | " | 👻 🔥 |
-|  3  | [78. Subsets](https://leetcode.com/problems/subsets/) |[solution.js](./leetcode/78.Subsets.js) | | " |   |
-|  4  | [34. Find First And Last Position Of Element In Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) |[solution.js](./leetcode/FindFirstAndLastPositionOfElementInSortedArray.js)| Binary Search | 22.03.03 |   |
-|  5  | [33. Search In Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array)|[solution.js](./leetcode/SearchInRotatedSortedArray.js) |Binary Search| " |   |
+|  1  | [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) |[solution.js](./leetcode/994.js)| | 22.02.24 |   |
+|  2  | [542. 01 Matrix](https://leetcode.com/problems/01-matrix/) | [solution.js](./leetcode/542.js)| | " | 👻 🔥 |
+|  3  | [78. Subsets](https://leetcode.com/problems/subsets/) |[solution.js](./leetcode/78.js) | | " |   |
+|  4  | [34. Find First And Last Position Of Element In Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) |[solution.js](./leetcode/34.js)| Binary Search | 22.03.03 |   |
+|  5  | [33. Search In Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array)|[solution.js](./leetcode/33.js) |Binary Search| " |   |
 |  6  | [74. Search A 2d Matrix](https://leetcode.com/problems/search-a-2d-matrix) |[solution.js](./leetcode/SearchA2dMatrix.js) |Binary Search| " |   |
-|  7  | [153. Find Minimum In Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array) |[solution.js](./leetcode/FindMinimumInRotatedSortedArray.js) |Binary Search| " |   |
+|  7  | [153. Find Minimum In Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array) |[solution.js](./leetcode/153.js) |Binary Search| " |   |
 |  8  | [162. Find Peak Element](https://leetcode.com/problems/find-peak-element) |[solution.js](./leetcode/FindPeakElement.js) |Binary Search| " |   |
-
 |  9  | [82. Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) |[solution.js](./leetcode/82.js) |Two Pointers| 22.03.10 |   |
 |  10  | [15. 3Sum](https://leetcode.com/problems/3sum/) |[solution.js](./leetcode/15.js) |Two Pointers| " |   |
 |  11  | [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) |[solution.js](./leetcode/844.js) |Two Pointers| " |   |
