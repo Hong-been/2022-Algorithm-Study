@@ -7,6 +7,7 @@ var searchMatrix = function(matrix, target) {
   let m = matrix.length;
   let n = matrix[0].length;
   
+  // row 찾는것도 binary search로 풀기
   for(let i=0; i<m; i++){
       if(target<matrix[i][n-1]){
           return binarySearch(matrix,i,target);

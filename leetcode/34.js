@@ -23,7 +23,7 @@ var searchRange = function(nums, target) {
       } else if(nums[mid] > target){
           right = mid - 1;
       } else {
-          if(mid === 0 || nums[mid-1] !== target){
+          if(nums[mid-1] !== target){
               res[0] = mid;
               break;
           }
@@ -41,7 +41,7 @@ var searchRange = function(nums, target) {
       } else if(nums[mid] > target){
           right = mid - 1;
       } else {
-          if(mid === nums.length-1 || nums[mid+1] !== target){
+          if(nums[mid+1] !== target){
               res[1] = mid;
               break;
           }
