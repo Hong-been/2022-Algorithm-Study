@@ -94,7 +94,7 @@ JavaScript로 푼 알고리즘 문제입니다.
 |  2  | [542. 01 Matrix](https://leetcode.com/problems/01-matrix/) | [solution.js](./leetcode/542.01Matrix.js)| " | 👻 🔥 |
 |  3  | [78. Subsets](https://leetcode.com/problems/subsets/) |[solution.js](./leetcode/78.Subsets.js) | " |   |
 |  4  | [34. Find First And Last Position Of Element In Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) |[solution.js](./leetcode/FindFirstAndLastPositionOfElementInSortedArray.js) | 22.02.25 |   |
-|  5  | [Search In Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array) |[solution.js](./leetcode/SearchInRotatedSortedArray.js) | " |   |
+|  5  | [33. Search In Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array) |[solution.js](./leetcode/SearchInRotatedSortedArray.js) | " |   |
 |  6  | [Search A 2d Matrix](https://leetcode.com/problems/search-a-2d-matrix) |[solution.js](./leetcode/SearchA2dMatrix.js) | " |   |
 |  7  | [Find Minimum In Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array) |[solution.js](./leetcode/FindMinimumInRotatedSortedArray.js) | " |   |
 |  8  | [Find Peak Element](https://leetcode.com/problems/find-peak-element) |[solution.js](./leetcode/FindPeakElement.js) | " |   |
