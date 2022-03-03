@@ -5,8 +5,6 @@
 0의 동서남북보면서
     1이 아니면 넘어가고
     1을 만나면 1자리에 dist+1 넣기
-Runtime: 156 ms, faster than 89.04% of JavaScript online submissions for 01 Matrix.
-Memory Usage: 50.3 MB, less than 64.84% of JavaScript online submissions for 01 Matrix.
 
 N: mat.length, M:mat[0].length
 time O(NM)
@@ -16,12 +14,7 @@ var updateMatrix = function (mat) {
 	const visited = Array.from({length: mat.length}, (x) =>
 		Array(mat[0].length).fill(0)
 	);
-	const moves = [
-		[1, 0],
-		[-1, 0],
-		[0, 1],
-		[0, -1],
-	];
+	const moves = [[1, 0],[-1, 0],[0, 1],[0, -1]];
 	const q = [];
 
 	for (let i = 0; i < mat.length; i++) {
@@ -39,15 +32,7 @@ var updateMatrix = function (mat) {
 			const newI = i + r;
 			const newJ = j + c;
 
-			if (
-				newI < 0 ||
-				newJ < 0 ||
-				newI >= mat.length ||
-				newJ >= mat[0].length ||
-				mat[newI][newJ] !== 1 ||
-				visited[newI][newJ]
-			)
-				continue;
+			if (newI < 0 || newJ < 0 || newI >= mat.length || newJ >= mat[0].length || mat[newI][newJ] !== 1 || visited[newI][newJ])continue;
 
 			mat[newI][newJ] = dist + 1;
 			visited[newI][newJ] = 1;
@@ -57,7 +42,39 @@ var updateMatrix = function (mat) {
 
 	return mat;
 };
-
+/*
+DP로 다시 풀기
+*/
+var updateMatrix = function(mat) {
+	const MAX = mat.length * mat[0].length;
+	let dp = JSON.parse(JSON.stringify(mat));
+	
+	for(let i = 0; i < mat.length; i++) {
+			for(let j = 0; j < mat[0].length; j++) {
+					if (mat[i][j] === 0) {
+							dp[i][j] = 0;
+							continue;
+					}
+					const top = i > 0 ? dp[i - 1][j] : MAX;
+					const left = j > 0 ? dp[i][j - 1] : MAX;
+					
+					dp[i][j] = Math.min(top, left) + 1;
+			}
+	}
+	for (let i = mat.length - 1; i >= 0; i--) {
+			for (let j = mat[0].length - 1; j >= 0; j--) {
+					if (mat[i][j] === 0) {
+							dp[i][j] = 0;
+							continue;
+					} 
+					const bottom = i < mat.length - 1 ? dp[i + 1][j] : MAX;
+					const right = j < mat[0].length - 1 ? dp[i][j + 1] : MAX;
+					
+					dp[i][j] = Math.min((Math.min(bottom, right) + 1), dp[i][j]);
+			}
+	}
+	return dp;
+};
 
 /*
 수빈
