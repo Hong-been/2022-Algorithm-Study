@@ -97,7 +97,7 @@ JavaScript로 푼 알고리즘 문제입니다.
 |  5  | [33. Search In Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array)|[solution.js](./leetcode/33.js) |Binary Search| " |   |
 |  6  | [74. Search A 2d Matrix](https://leetcode.com/problems/search-a-2d-matrix) |[solution.js](./leetcode/SearchA2dMatrix.js) |Binary Search| " |   |
 |  7  | [153. Find Minimum In Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array) |[solution.js](./leetcode/153.js) |Binary Search| " |   |
-|  8  | [162. Find Peak Element](https://leetcode.com/problems/find-peak-element) |[solution.js](./leetcode/FindPeakElement.js) |Binary Search| " |   |
+|  8  | [162. Find Peak Element](https://leetcode.com/problems/find-peak-element) |[solution.js](./leetcode/162.js) |Binary Search| " |   |
 |  9  | [82. Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) |[solution.js](./leetcode/82.js) |Two Pointers| 22.03.10 |   |
 |  10  | [15. 3Sum](https://leetcode.com/problems/3sum/) |[solution.js](./leetcode/15.js) |Two Pointers| " |   |
 |  11  | [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) |[solution.js](./leetcode/844.js) |Two Pointers| " |   |
