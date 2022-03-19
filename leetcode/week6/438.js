@@ -54,3 +54,38 @@ var findAnagrams = function (s, p) {
 
 	return ans;
 };
+
+
+/*
+수빈
+time: O(S+P)
+space: O(P)
+*/
+var findAnagrams = function(s, p) {
+	let res = [];
+	const pMap = new Map();
+	for(let char of p){
+			if(pMap.has(char)) pMap.set(char, pMap.get(char)+1);
+			else pMap.set(char, 1);
+	}
+	let counter = pMap.size;
+	let left=0, right=0;
+	while(right < s.length){
+			let curChar = s[right];
+			if(pMap.has(curChar)){
+					pMap.set(curChar, pMap.get(curChar)-1);
+					if(pMap.get(curChar)===0) counter--;
+			}
+			right++;
+			while(counter === 0){
+					if(right-left === p.length) res.push(left);
+					let leftChar = s[left];
+					if(pMap.has(leftChar)){
+							pMap.set(leftChar, pMap.get(leftChar)+1);
+							if(pMap.get(leftChar)>0) counter++;
+					}
+					left++;
+			}
+	}
+	return res;
+};

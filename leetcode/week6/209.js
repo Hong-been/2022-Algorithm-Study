@@ -30,3 +30,26 @@
   
   return ans;
 };
+
+
+/*
+수빈
+time: O(N)
+space: O(1)
+*/
+var minSubArrayLen = function(target, nums) {
+    let res = Number.MAX_VALUE;
+    let left = 0, right = 0;
+    let sum = 0;
+    
+    while(right < nums.length){
+        sum += nums[right];
+        while(sum >= target){
+            res = Math.min(res, right-left+1);
+            sum -= nums[left];
+            left++;
+        }
+        right++;
+    }
+    return res !== Number.MAX_VALUE ? res : 0;
+};
