@@ -40,3 +40,45 @@
       
       return -1;
   };
+
+
+/*
+수빈
+
+아래로 대각선 가는게 제일 clear한 Path.
+
+0을 만나면 [i,j]를 queue에 넣음 bfs..
+확인한 애는 1로 바꿔줌.
+마지막점 도달하면 return.
+ 
+time: O(N^2)
+space: O(N) for queue
+ */
+var shortestPathBinaryMatrix = function(grid) {
+    //edge case
+    if(grid[0][0]===1) return -1;
+    
+    let path = 1;
+    const queue = [[0,0]];
+    grid[0][0]=1;
+    const dir = [[-1,0],[0,1],[1,0],[0,-1],[-1,1],[-1,-1],[1,1],[1,-1]];
+    
+    while(queue.length){
+        const q_len = queue.length;
+        for(let i=0; i<q_len; i++){
+            const [x, y] = queue.shift();
+            if(x===grid.length-1 && y===grid[0].length-1) return path;
+            for(let [dx, dy] of dir){
+                let newX = x + dx;
+                let newY = y + dy;
+                if(newX<0 || newY<0 || newX>=grid.length || newY>=grid[0].length || grid[newX][newY]===1) continue;
+                else if(grid[newX][newY]===0){
+                    queue.push([newX, newY]);
+                    grid[newX][newY]=1;
+                }
+            }
+        }
+        path++;
+    }
+    return -1;
+};
