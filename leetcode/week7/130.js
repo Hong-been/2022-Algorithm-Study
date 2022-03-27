@@ -56,3 +56,44 @@
   }
   
 };
+
+/*
+수빈
+4방향이 X로 둘러싸여진 O들을 다 X로 바꿔버리자.
+테두리 O는 못바꿈. 테두리에 있는 O랑 이어져있는 애들도 못바꿈.
+-> 테두리 O를 찾아서 걔랑 이어져있는 애들만 O로 남기고 나머지는 다 X로 바꾸자.
+
+*/
+var solve = function(board) {
+    const m = board.length;
+    const n = board[0].length;
+    
+    //세로 두줄
+    for(let i=0; i<m; i++){
+        if(board[i][0]==="O") dfs(board, i,0);
+        if(board[i][n-1]==="O")  dfs(board, i, n-1);
+    }
+    //가로 두줄
+    for(let i=0; i<n; i++){
+        if(board[0][i]==="O") dfs(board, 0, i);
+        if(board[m-1][i]==="O") dfs(board, m-1, i);
+    }
+    //console.log(board)
+    for(let i=0; i<m; i++){
+        for(let j=0; j<n; j++){
+            if(board[i][j]==="#") board[i][j]="O";
+            else if(board[i][j]==="O") board[i][j]="X";
+        }
+    }
+    
+    function dfs(board, i, j){
+        if(i<0 || j<0 || i>=board.length || j>=board[0].length || board[i][j]!=="O") return;
+        board[i][j]="#";
+        const dir=[[-1,0],[1,0],[0,-1],[0,1]];
+        for(let [dx, dy] of dir){
+            dfs(board, i+dx, j+dy);
+        }
+    }
+    
+    return board;
+};

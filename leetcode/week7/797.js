@@ -32,3 +32,32 @@ var allPathsSourceTarget = function(graph) {
   
   return ans;
 };
+
+
+/*
+수빈
+time: O(N^2)
+space: O(N) + O(N^2) for result
+*/
+var allPathsSourceTarget = function(graph) {
+    let result = [];
+    let path = [];
+    
+    function dfs(curList){
+        path.push(curList); //[0,1]
+        //마지막 노드라면
+        if(curList === graph.length-1){
+            result.push([...path]);
+            path.pop();
+            return;
+        }
+        else {
+            for(let i=0; i<graph[curList].length; i++){
+                dfs(graph[curList][i]);   
+            }   
+        }
+        path.pop();
+    }
+    dfs(0);
+    return result;
+};

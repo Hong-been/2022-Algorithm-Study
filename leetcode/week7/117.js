@@ -37,3 +37,32 @@
   
   return root;
 };
+
+/*
+수빈
+time: O(N)
+space: O(N)
+
+bfs 이용, queue에 [현재 노드, 현재 레벨] 넣고
+같은 레벨 노드가 있으면 걔를 next로, 없으면 next = null로
+*/
+var connect = function(root) {
+  if(!root) return root;
+  
+  const queue = [[root, 0]];
+  while(queue.length){
+      const [curNode, level] = queue.shift();
+
+      if(queue.length && level === queue[0][1] ){
+          curNode.next = queue[0][0];
+      } else {
+          curNode.next = null;
+      }
+  
+      if(curNode.left) queue.push([curNode.left, level+1]);
+      if(curNode.right) queue.push([curNode.right, level+1]);
+  }
+  
+  return root;
+  
+};

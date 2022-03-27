@@ -71,3 +71,42 @@ var findCircleNum = function (isConnected) {
 
 	return ans;
 };
+
+
+/*
+수빈
+
+[i][j]=1 이면 i번째 도시랑 j번째 도시랑 연결되었다는 뜻.
+0,0 1,1 2,2 ... 는 무조건 1
+
+ex. 
+0,1,2 방문여부 확인할 visited=[t,t,f]
+f면 dfs확인해본다. 
+-> 열 확인. 값이 1이면 dfs또함.
+
+time: O(N^2)
+space: O(N) for visited
+*/
+var findCircleNum = function(isConnected) {
+	let result = 0;
+	let visited = new Array(isConnected.length).fill(false);
+	for(let i=0; i<isConnected.length; i++){
+			if(!visited[i]){
+					dfs(isConnected, i);
+					result++;
+			}
+	}
+	
+	function dfs(isConnected, i){
+			// 열 확인
+			for(let j=0; j<isConnected[i].length; j++){
+					// 1이고 j가 방문 안한 도시면
+					if(isConnected[i][j]===1 && !visited[j]){
+							visited[j]=true;
+							dfs(isConnected, j);
+					}
+			}
+	}
+	
+	return result;
+};

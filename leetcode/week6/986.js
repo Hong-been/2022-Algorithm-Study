@@ -33,3 +33,35 @@ var intervalIntersection = function (a1, a2) {
 
 	return ans;
 };
+
+
+/*
+수빈
+[[0,2],[5,10],[13,23],[24,25]]
+                           ^
+  
+[[1,5],[8,12],[15,24],[25,26]]
+                           ^
+
+두 범위를 비교했을때, 
+시작점은 둘중 max인거.
+끝점은 둘중 min인거. 
+
+time: O(L1+L2)
+space: O(1)
+*/
+var intervalIntersection = function(firstList, secondList) {
+	let p1=0, p2=0;
+	let res = [];
+	
+	while(p1 < firstList.length && p2 < secondList.length){
+			let maxStart = Math.max(firstList[p1][0], secondList[p2][0]);
+			let minEnd = Math.min(firstList[p1][1], secondList[p2][1]);
+			
+			if(maxStart<=minEnd) res.push([maxStart, minEnd]);
+			if(firstList[p1][1]<secondList[p2][1]) p1++;
+			else p2++;
+	}
+	
+	return res;
+};

@@ -98,14 +98,15 @@ JavaScript로 푼 알고리즘 문제입니다.
 |  6  | [74. Search A 2d Matrix](https://leetcode.com/problems/search-a-2d-matrix) |[solution.js](./leetcode/week5/SearchA2dMatrix.js) |Binary Search| " |   |
 |  7  | [153. Find Minimum In Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array) |[solution.js](./leetcode/week5/153.js) |Binary Search| " |   |
 |  8  | [162. Find Peak Element](https://leetcode.com/problems/find-peak-element) |[solution.js](./leetcode/week5/162.js) |Binary Search| " |   |
-|  9  | [82. Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) |[solution.js](./leetcode/week6/82.js) |Two Pointers| 22.03.10 |  👻 |
-|  10  | [15. 3Sum](https://leetcode.com/problems/3sum/) |[solution.js](./leetcode/week6/15.js) |Two Pointers| " | 👻  |
+|  9  | [82. Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) |[solution.js](./leetcode/week6/82.js) |Two Pointers| 22.03.10 | 👻 🔥 |
+|  10  | [15. 3Sum](https://leetcode.com/problems/3sum/) |[solution.js](./leetcode/week6/15.js) |Two Pointers| " | 👻 🔥 |
 |  11  | [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) |[solution.js](./leetcode/week6/844.js) |Two Pointers| " |   |
-|  12  | [986. Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/) |[solution.js](./leetcode/week6/986.js) |Two Pointers| " |   |
+|  12  | [986. Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/) |[solution.js](./leetcode/week6/986.js) |Two Pointers| " | 🔥 |
 |  13  | [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) |[solution.js](./leetcode/week6/11.js) |Two Pointers| " |   |
-|  14  | [438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) |[solution.js](./leetcode/week6/438.js) |Sliding Window| " |  👻 |
+|  14  | [438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) |[solution.js](./leetcode/week6/438.js) |Sliding Window| " |  👻 🔥 |
 |  15  | [713. Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/) |[solution.js](./leetcode/week6/713.js) |Sliding Window| " |   |
 |  16  | [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) |[solution.js](./leetcode/week6/209.js) |Sliding Window| " |   |
+|  17  |
 
 
 

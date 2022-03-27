@@ -33,3 +33,40 @@ var deleteDuplicates = function(head) {
   
   return sentinel.next;
 };
+
+
+/*
+수빈
+time: O(N)
+space: O(1)
+*/
+var deleteDuplicates = function(head) {
+    //edge case
+    if(!head) return head;
+    
+    let ansList = new ListNode(null);
+    ansList.next = head;
+    let prevList = ansList;
+    /*               
+		prevList 2 5
+		curNode 4 5
+		ansList 0 1 2 5
+    */
+    while(prevList.next) {
+        let curNode = prevList.next;
+        
+        while(curNode.next && curNode.val === curNode.next.val){
+            curNode = curNode.next;
+        }
+        if(curNode !== prevList.next){
+                prevList.next = curNode.next;
+        }
+        else prevList = prevList.next;
+        console.log("curNode:", curNode)
+        console.log("prevList:", prevList)
+        console.log("answer:", ansList.next)
+        
+    }
+    return ansList.next;
+    
+};

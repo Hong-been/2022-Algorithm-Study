@@ -40,3 +40,23 @@ var backspaceCompare = function(s, t) {
   if(p1<0 && p2<0) return true;
   return false;
 }
+
+
+/*
+수빈(stack사용)
+time: O(N)
+space: O(1)
+*/
+var backspaceCompare = function(s, t) {
+    return backspace(s) === backspace(t) ? true : false;
+};
+
+function backspace(str){
+    let stack=[];
+    for(let i=0; i<str.length; i++){
+        if(str[i]==="#") stack.pop();
+        else stack.push(str[i]);
+    }
+    return stack.join("");
+}
+//-> two pointer로 다시풀기,,
