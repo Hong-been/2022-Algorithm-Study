@@ -73,12 +73,12 @@ var findCircleNum = function (isConnected) {
 };
 
 
+
 /*
 수빈
 
 [i][j]=1 이면 i번째 도시랑 j번째 도시랑 연결되었다는 뜻.
 0,0 1,1 2,2 ... 는 무조건 1
-
 ex. 
 0,1,2 방문여부 확인할 visited=[t,t,f]
 f면 dfs확인해본다. 
