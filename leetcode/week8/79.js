@@ -45,7 +45,7 @@
 
 /*
 수빈
-time: O(M*N*4W)
+time: O(M*N*4^W)
 space: O(1)
 */
 var exist = function(board, word) {
