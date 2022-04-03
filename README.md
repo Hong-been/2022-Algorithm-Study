@@ -115,11 +115,11 @@ JavaScript로 푼 알고리즘 문제입니다.
 |  23  | [797. All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/) | [solution.js](./leetcode/week7/797.js) | BFS / DFS | " |  🔥 |
 |  24  | [78. Subsets](https://leetcode.com/problems/subsets/) | [solution.js](./leetcode/week8/78.js) | Recursion / Backtracking | 22.04.03 |  |
 |  25  | [90. Subsets II](https://leetcode.com/problems/subsets-ii/) | [solution.js](./leetcode/week8/90.js) | " | " |  |
-|  26  | [47. Permutations II](https://leetcode.com/problems/permutations-ii/) | [solution.js](./leetcode/week8/47.js) | " | " |  |
-|  27  | [39. Combination Sum](https://leetcode.com/problems/combination-sum/) | [solution.js](./leetcode/week8/39.js) | " | " |  |
-|  28  | [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | [solution.js](./leetcode/week8/40.js) | " | " |  |
-|  29  | [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [solution.js](./leetcode/week8/17.js) | " | " |  |
+|  26  | [47. Permutations II](https://leetcode.com/problems/permutations-ii/) | [solution.js](./leetcode/week8/47.js) | " | " | 🔥 |
+|  27  | [39. Combination Sum](https://leetcode.com/problems/combination-sum/) | [solution.js](./leetcode/week8/39.js) | " | " | |
+|  28  | [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | [solution.js](./leetcode/week8/40.js) | " | " | 🔥 |
+|  29  | [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [solution.js](./leetcode/week8/17.js) | " | " |  🔥 |
 |  30  | [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [solution.js](./leetcode/week8/22.js) | " | " |  |
-|  31  | [79. Word Search](https://leetcode.com/problems/word-search/) | [solution.js](./leetcode/week8/79.js) | " | " |  |
+|  31  | [79. Word Search](https://leetcode.com/problems/word-search/) | [solution.js](./leetcode/week8/79.js) | " | " |  🔥 |
 
 
