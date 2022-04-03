@@ -26,3 +26,30 @@
   
   return ans;
 };
+
+/*
+수빈
+time: O(NlogN)+O(C^T)
+space: O(C)
+*/
+var combinationSum2 = function(candidates, target) {
+    candidates.sort((a,b)=>a-b);
+    let result=[];
+    backtracking(candidates, target, [], 0);
+    return result;
+    
+    function backtracking(candidates, target, comb, start){
+        if(target < 0) return;
+        else if(target === 0){
+            result.push([...comb]);
+            return;
+        }
+        
+        for(let i=start; i<candidates.length; i++){
+            if(i>start && candidates[i] === candidates[i-1]) continue;
+            comb.push(candidates[i]);
+            backtracking(candidates, target-candidates[i], comb, i+1);
+            comb.pop();
+        }
+    }
+};

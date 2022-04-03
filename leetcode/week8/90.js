@@ -28,3 +28,27 @@
   
   return ans;
 };
+
+
+/*
+수빈
+time: O(NlogN)+O(N*2^N)
+space: O(N*2^N)
+*/
+var subsetsWithDup = function(nums) {
+    let result = [];
+    nums.sort((a,b) => a-b);
+    backtracking(nums, [], 0);
+    
+    function backtracking(nums, subset, start){
+        result.push([...subset]);
+        for(let i=start; i<nums.length; i++){
+            if(i===start || nums[i]!==nums[i-1]){
+                subset.push(nums[i]);  
+                backtracking(nums, subset, i+1);
+                subset.pop();
+            }
+        }
+    }
+    return result;
+};

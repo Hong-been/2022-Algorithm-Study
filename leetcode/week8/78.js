@@ -21,3 +21,24 @@ var subsets = function(nums) {
   
   return ans;
 };
+
+
+/*
+수빈
+time: O(2^N)
+space: O(N * 2^N) for arr
+*/
+var subsets = function(nums) {
+    let result = [];
+    backtracking([], 0);
+    
+    function backtracking(arr, index){
+        result.push([...arr]);
+        for(let i=index; i<nums.length; i++){
+            arr.push(nums[i]);
+            backtracking(arr, i+1);
+            arr.pop();    
+        }        
+    }
+    return result;
+};

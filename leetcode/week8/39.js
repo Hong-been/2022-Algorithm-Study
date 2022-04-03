@@ -28,3 +28,30 @@
   dfs([],0,0);
   return ans;
 };
+
+
+/*
+수빈
+
+target: 7일때
+2 선택 -> "5" -> 2 선택 -> "3" -> 2 선택 -> 1 -> 2 선택 -> "-1" 0보다 작으니까 그냥 리턴
+                      x       -> 3 선택 -> 0이니까 result에 [2,2,3] push
+
+time: O(C^T)
+space: O(C)
+*/
+var combinationSum = function(candidates, target) {
+    let result=[];
+    backtracking(0, candidates, target, [], result);
+    return result;
+};
+
+function backtracking(start, candidates, target, comb){
+    if(target<0) return;
+    else if(target===0) result.push([...comb]);
+    for(let i=start; i<candidates.length; i++){
+        comb.push(candidates[i]);
+        backtracking(i, candidates, target-candidates[i], comb, result);
+        comb.pop();
+    }
+}

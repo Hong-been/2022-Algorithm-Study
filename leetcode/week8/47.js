@@ -36,3 +36,32 @@ var permuteUnique = function (nums) {
 
 	return ans;
 };
+
+
+/*
+수빈
+time: O(NlogN) + O(N!)
+space: O(N)
+*/
+var permuteUnique = function(nums) {
+	nums.sort((a,b)=>a-b);
+	let result = [];
+	let used = new Array(nums.length).fill(false);
+	backtracking(nums, []);
+	
+	function backtracking(nums, permutation){
+			if(permutation.length===nums.length){
+					result.push([...permutation]);
+			}
+			for(let i=0; i<nums.length; i++){
+					if(used[i] || (i>0 && nums[i]===nums[i-1] && used[i-1])) continue;
+					
+					permutation.push(nums[i]);
+					used[i]=true;
+					backtracking(nums, permutation);
+					permutation.pop();
+					used[i]=false;
+			}
+	}
+	return result;
+};

@@ -32,3 +32,21 @@ time O(2^N) space O(N)
   
   return ans.map(i=>i.join(""));
 };
+
+
+/*
+수빈
+time: O(2^N)
+spcae: O(N)
+*/
+var generateParenthesis = function(n) {
+  let result = [];
+  backtracking(n, "", 0, 0);
+  return result;
+  
+  function backtracking(n, comb, open, close){
+      if(comb.length===2*n) result.push(comb);
+      if(n>open) backtracking(n, comb+"(", open+1, close);
+      if(open>close) backtracking(n, comb+")", open, close+1);
+  }
+};
