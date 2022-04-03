@@ -113,7 +113,7 @@ JavaScript로 푼 알고리즘 문제입니다.
 |  21  | [1091. Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) | [solution.js](./leetcode/week7/1091.js) | BFS / DFS | " |  🔥 | 
 |  22  | [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | [solution.js](./leetcode/week7/130.js) | BFS / DFS | " |  |
 |  23  | [797. All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/) | [solution.js](./leetcode/week7/797.js) | BFS / DFS | " |  🔥 |
-|  24  | [90. Subsets II](https://leetcode.com/problems/subsets-ii/) | [solution.js](./leetcode/week8/90.js) | " | " |  |
+|  24  | [90. Subsets II](https://leetcode.com/problems/subsets-ii/) | [solution.js](./leetcode/week8/90.js) | Recursion / Backtracking | 22.04.03 |  |
 |  25  | [78. Subsets](https://leetcode.com/problems/subsets/) | [solution.js](./leetcode/week8/78.js) | " | " |  |
 |  26  | [47. Permutations II](https://leetcode.com/problems/permutations-ii/) | [solution.js](./leetcode/week8/47.js) | " | " |  |
 |  27  | [78. Subsets](https://leetcode.com/problems/subsets/) | [solution.js](./leetcode/week8/78.js) | " | " |  |
