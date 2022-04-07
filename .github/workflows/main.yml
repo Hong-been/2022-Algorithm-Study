@@ -24,13 +24,6 @@ jobs:
 
           git remote add upstream https://github.com/zzzzsb/2022-Algorithm-Study.git
           git fetch upstream
-
-          # Neither forget the -b opt,
-          # the feature/x ref is ambiguous at this stage
-          # git checkout -b feature/x origin/feature/x
-          # git merge --no-edit upstream/feature/x
-          # git push origin feature/x
-
           git checkout main
           git merge -Xtheirs upstream/main
           git push origin main
