@@ -25,7 +25,7 @@ JavaScript로 푼 알고리즘 문제입니다.
 │   ├── Level 2
 │   └── Level 3
 ├── leetcode
-│   └── js
+│   └── 992.RottingOrange.js
 └── README.md
 ```
 
@@ -73,12 +73,12 @@ JavaScript로 푼 알고리즘 문제입니다.
 | 25  | [튜플](https://programmers.co.kr/learn/courses/30/lessons/64065)   |[solution.js](./프로그래머스/Level%202/튜플.js)  | " | |
 | 26  | [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587)   |[solution.js](./프로그래머스/Level%202/프린터.js) |" | |
 | 27  | [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746)   |[solution.js](./프로그래머스/Level%202/가장큰수.js) | " |  👻 🔥  |
-| 28  | [빛의 경로 사이클](https://programmers.co.kr/learn/courses/30/lessons/86052)   | | | |
-| 29  | [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839)   | | | |
-| 30  | [조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860)   | | | |
-| 31  | [게임 맵 최단거리](https://programmers.co.kr/learn/courses/30/lessons/1844)   | | | |
-| 32  | [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412)   | | | |
-| 33  | [후보 키](https://programmers.co.kr/learn/courses/30/lessons/42890)   | | | |
+| 28  | [빛의 경로 사이클](https://programmers.co.kr/learn/courses/30/lessons/86052)   |[solution.js](./프로그래머스/Level%202/빛의경로사이클.js) | 22.02.24|👻 🔥 |
+| 28  | [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839)   | [solution.js](./프로그래머스/Level%202/소수찾기.js)|" | |
+| 28  | [조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860)   |[solution.js](./프로그래머스/Level%202/조이스틱.js) | "|👻 🔥 |
+| 28  | [게임 맵 최단거리](https://programmers.co.kr/learn/courses/30/lessons/1844)   |[solution.js](./프로그래머스/Level%202/게임맵최단거리.js) | "| |
+| 28  | [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412)   | [solution.js](./프로그래머스/Level%202/순위검색.js)|" |👻 🔥 |
+| 28  | [후보 키](https://programmers.co.kr/learn/courses/30/lessons/42890)   |[solution.js](./프로그래머스/Level%202/후보키.js) |" |👻 🔥|
 
 ### 📍프로그래머스 Level 3.
 
@@ -88,11 +88,38 @@ JavaScript로 푼 알고리즘 문제입니다.
 
 ### 📍Leetcode
 
-|  #  | Title                                                                         | Solution                                                          |   Date   | Note |
-| :-: | ----------------------------------------------------------------------------- | ----------------------------------------------------------------- | :------: | :--: |
-|  1  | [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | |  |   |
-|  2  | [542. 01 Matrix](https://leetcode.com/problems/01-matrix/) | |  |   |
-|  3  | [78. Subsets](https://leetcode.com/problems/subsets/) | |  |   |
-
+|  #  | Title   | Solution | Topic |  Date   | Note |
+| :-: | ------- | -------- |:-----:|:------: | :--: |
+|  1  | [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) |[solution.js](./leetcode/week4/994.js)| | 22.02.24 |   |
+|  2  | [542. 01 Matrix](https://leetcode.com/problems/01-matrix/) | [solution.js](./leetcode/week4/542.js)| | " | 👻 🔥 |
+|  3  | [78. Subsets](https://leetcode.com/problems/subsets/) |[solution.js](./leetcode/week4/78.js) | | " |  👻 |
+|  4  | [34. Find First And Last Position Of Element In Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) |[solution.js](./leetcode/week5/34.js)| Binary Search | 22.03.03 |   |
+|  5  | [33. Search In Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array)|[solution.js](./leetcode/week5/33.js) |Binary Search| " |   |
+|  6  | [74. Search A 2d Matrix](https://leetcode.com/problems/search-a-2d-matrix) |[solution.js](./leetcode/week5/SearchA2dMatrix.js) |Binary Search| " |   |
+|  7  | [153. Find Minimum In Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array) |[solution.js](./leetcode/week5/153.js) |Binary Search| " |   |
+|  8  | [162. Find Peak Element](https://leetcode.com/problems/find-peak-element) |[solution.js](./leetcode/week5/162.js) |Binary Search| " |   |
+|  9  | [82. Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) |[solution.js](./leetcode/week6/82.js) |Two Pointers| 22.03.10 | 👻 🔥 |
+|  10  | [15. 3Sum](https://leetcode.com/problems/3sum/) |[solution.js](./leetcode/week6/15.js) |Two Pointers| " | 👻 🔥 |
+|  11  | [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) |[solution.js](./leetcode/week6/844.js) |Two Pointers| " |   |
+|  12  | [986. Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/) |[solution.js](./leetcode/week6/986.js) |Two Pointers| " | 🔥 |
+|  13  | [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) |[solution.js](./leetcode/week6/11.js) |Two Pointers| " |   |
+|  14  | [438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) |[solution.js](./leetcode/week6/438.js) |Sliding Window| " |  👻 🔥 |
+|  15  | [713. Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/) |[solution.js](./leetcode/week6/713.js) |Sliding Window| " |   |
+|  16  | [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) |[solution.js](./leetcode/week6/209.js) |Sliding Window| " |   |
+|  17  | [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) | [solution.js](./leetcode/week7/200.js) | BFS / DFS | 22.03.19 |  |
+|  18  | [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/) | [solution.js](./leetcode/week7/547.js) | BFS / DFS | " |  |
+|  19  | [117. Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/) | [solution.js](./leetcode/week7/117.js) | BFS / DFS | " | 🔥 |
+|  20  | [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | [solution.js](./leetcode/week7/572.js) | BFS / DFS | " | 🔥  |
+|  21  | [1091. Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) | [solution.js](./leetcode/week7/1091.js) | BFS / DFS | " |  🔥 | 
+|  22  | [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | [solution.js](./leetcode/week7/130.js) | BFS / DFS | " |  |
+|  23  | [797. All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/) | [solution.js](./leetcode/week7/797.js) | BFS / DFS | " |  🔥 |
+|  24  | [78. Subsets](https://leetcode.com/problems/subsets/) | [solution.js](./leetcode/week8/78.js) | Recursion / Backtracking | 22.04.03 |  |
+|  25  | [90. Subsets II](https://leetcode.com/problems/subsets-ii/) | [solution.js](./leetcode/week8/90.js) | " | " |  |
+|  26  | [47. Permutations II](https://leetcode.com/problems/permutations-ii/) | [solution.js](./leetcode/week8/47.js) | " | " | 🔥 |
+|  27  | [39. Combination Sum](https://leetcode.com/problems/combination-sum/) | [solution.js](./leetcode/week8/39.js) | " | " | |
+|  28  | [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | [solution.js](./leetcode/week8/40.js) | " | " | 🔥 |
+|  29  | [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [solution.js](./leetcode/week8/17.js) | " | " |  🔥 |
+|  30  | [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [solution.js](./leetcode/week8/22.js) | " | " |  |
+|  31  | [79. Word Search](https://leetcode.com/problems/word-search/) | [solution.js](./leetcode/week8/79.js) | " | " |  🔥 |
 
 

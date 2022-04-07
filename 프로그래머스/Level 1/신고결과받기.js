@@ -38,7 +38,6 @@ function solution(id_list, report, k) {
 	return result;
 }
 
-
 /*
 수빈
 */
