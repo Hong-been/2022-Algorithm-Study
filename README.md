@@ -114,12 +114,30 @@ JavaScript로 푼 알고리즘 문제입니다.
 |  22  | [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | [solution.js](./leetcode/week7/130.js) | BFS / DFS | " |  |
 |  23  | [797. All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/) | [solution.js](./leetcode/week7/797.js) | BFS / DFS | " |  🔥 |
 |  24  | [78. Subsets](https://leetcode.com/problems/subsets/) | [solution.js](./leetcode/week8/78.js) | Recursion / Backtracking | 22.04.03 |  |
-|  25  | [90. Subsets II](https://leetcode.com/problems/subsets-ii/) | [solution.js](./leetcode/week8/90.js) | " | " |  |
-|  26  | [47. Permutations II](https://leetcode.com/problems/permutations-ii/) | [solution.js](./leetcode/week8/47.js) | " | " | 🔥 |
-|  27  | [39. Combination Sum](https://leetcode.com/problems/combination-sum/) | [solution.js](./leetcode/week8/39.js) | " | " | |
-|  28  | [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | [solution.js](./leetcode/week8/40.js) | " | " | 🔥 |
-|  29  | [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [solution.js](./leetcode/week8/17.js) | " | " |  🔥 |
-|  30  | [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [solution.js](./leetcode/week8/22.js) | " | " |  |
-|  31  | [79. Word Search](https://leetcode.com/problems/word-search/) | [solution.js](./leetcode/week8/79.js) | " | " |  🔥 |
-
+|  25  | [90. Subsets II](https://leetcode.com/problems/subsets-ii/) | [solution.js](./leetcode/week8/90.js) | Recursion / Backtracking | " |  |
+|  26  | [47. Permutations II](https://leetcode.com/problems/permutations-ii/) | [solution.js](./leetcode/week8/47.js) | Recursion / Backtracking | " | 🔥 |
+|  27  | [39. Combination Sum](https://leetcode.com/problems/combination-sum/) | [solution.js](./leetcode/week8/39.js) | Recursion / Backtracking | " | |
+|  28  | [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | [solution.js](./leetcode/week8/40.js) | Recursion / Backtracking | " | 🔥 |
+|  29  | [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [solution.js](./leetcode/week8/17.js) | Recursion / Backtracking | " |  🔥 |
+|  30  | [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [solution.js](./leetcode/week8/22.js) | Recursion / Backtracking | " |  |
+|  31  | [79. Word Search](https://leetcode.com/problems/word-search/) | [solution.js](./leetcode/week8/79.js) | Recursion / Backtracking | " |  🔥 |
+|  32  | [213. House Robber II](https://leetcode.com/problems/house-robber-ii/)| [solution.js](./leetcode/week9/213.js) | Dynamic Programming | " |   |
+|  33  | [55. Jump Game](https://leetcode.com/problems/jump-game/)| [solution.js](./leetcode/week9/55.js) | Dynamic Programming | " |   |
+|  34  | [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/)| [solution.js](./leetcode/week9/45.js) | Dynamic Programming | " |   |
+|  35  | [62. Unique Paths](https://leetcode.com/problems/unique-paths/)| [solution.js](./leetcode/week9/62.js) | Dynamic Programming | " |   |
+|  36  | [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)| [solution.js](./leetcode/week9/5.js) | Dynamic Programming | "|   |
+|  37  | [413. Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)| [solution.js](./leetcode/week9/413.js) | Dynamic Programming | " |   |
+|  38  | [91. Decode Ways](https://leetcode.com/problems/decode-ways/)| [solution.js](./leetcode/week9/91.js) | Dynamic Programming | " |   |
+|  39  | [139. Word Break](https://leetcode.com/problems/word-break/)| [solution.js](./leetcode/week9/139.js) | Dynamic Programming | " |   |
+|  40  | [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)| [solution.js](./leetcode/week9/300.js) | Dynamic Programming | " |   |
+|  41  | [673. Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)| [solution.js](./leetcode/week9/673.js) | Dynamic Programming | " |   |
+|  42  | [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)| [solution.js](./leetcode/week9/1143.js) | Dynamic Programming | " |   |
+|  43  | [583. Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)| [solution.js](./leetcode/week9/583.js) | Dynamic Programming | " |   |
+|  44  | [72. Edit Distance](https://leetcode.com/problems/edit-distance/)| [solution.js](./leetcode/week9/72.js) | Dynamic Programming | " |   |
+|  45  | [322. Coin Change](https://leetcode.com/problems/coin-change/)| [solution.js](./leetcode/week9/322.js) | Dynamic Programming | " |   |
+|  46  | [343. Integer Break](https://leetcode.com/problems/integer-break/)| [solution.js](./leetcode/week9/343.js) | Dynamic Programming | " |   |
+|  47  | [201. Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/)| [solution.js](./leetcode/week10/201.js) | Bit Manipulation |  |   |
+|  48  | [384. Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/) | [solution.js](./leetcode/week10/384.js) | Others |  |   |
+|  49  | [202. Happy Number](https://leetcode.com/problems/happy-number/) | [solution.js](./leetcode/week10/202.js) | Others |  |   |
+|  50  | [149. Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/) | [solution.js](./leetcode/week10/149.js) | Others |  |   |
 
