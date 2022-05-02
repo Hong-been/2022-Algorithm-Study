@@ -121,7 +121,7 @@ JavaScript로 푼 알고리즘 문제입니다.
 |  29  | [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [solution.js](./leetcode/week8/17.js) | Recursion / Backtracking | " |  🔥 |
 |  30  | [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [solution.js](./leetcode/week8/22.js) | Recursion / Backtracking | " |  |
 |  31  | [79. Word Search](https://leetcode.com/problems/word-search/) | [solution.js](./leetcode/week8/79.js) | Recursion / Backtracking | " |  🔥 |
-|  32  | [213. House Robber II](https://leetcode.com/problems/house-robber-ii/)| [solution.js](./leetcode/week9/213.js) | Dynamic Programming | " |   |
+|  32  | [213. House Robber II](https://leetcode.com/problems/house-robber-ii/)| [solution.js](./leetcode/week9/213.js) | Dynamic Programming | 22.05.04 |   |
 |  33  | [55. Jump Game](https://leetcode.com/problems/jump-game/)| [solution.js](./leetcode/week9/55.js) | Dynamic Programming | " |   |
 |  34  | [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/)| [solution.js](./leetcode/week9/45.js) | Dynamic Programming | " |   |
 |  35  | [62. Unique Paths](https://leetcode.com/problems/unique-paths/)| [solution.js](./leetcode/week9/62.js) | Dynamic Programming | " |   |
