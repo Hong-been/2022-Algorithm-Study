@@ -36,3 +36,42 @@
   // console.log(dp)
   return dp[w1.length-1][w2.length-1];
 };
+
+
+/*
+수빈
+time: O(n*m)
+space: O(n*m)
+*/
+var minDistance = function(word1, word2) {
+    let n = word1.length;
+    let m = word2.length;
+    
+    // edge case
+    if(n * m === 0) return n+m;
+
+    const dp = Array.from(Array(n+1), ()=> Array(m+1).fill(0));
+    //console.log(dp);
+    // top down
+    for(let i=0; i< n+1; i++){
+        dp[i][0] = i;
+    }
+    // left to right
+    for(let j=0; j<m+1; j++){
+        dp[0][j] = j;
+    }
+    
+    for(let i=1; i<n+1; i++){
+        for(let j=1; j<m+1; j++){
+            let left = dp[i][j-1];
+            let top = dp[i-1][j];
+            let dia = dp[i-1][j-1];
+      
+            if(word1[i-1] !== word2[j-1]) dp[i][j]= Math.min(left, top, dia) +1;
+            else dp[i][j]=dia;
+        }
+    }
+    return dp[n][m];
+    
+    
+};

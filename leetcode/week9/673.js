@@ -36,3 +36,44 @@
   }
   return acc;
 };
+
+
+/*
+수빈
+0 1 2 3 4
+1 3 5 4 7
+        ^ 
+      ^
+
+1 2 3 3 4
+1 1 1 1 2
+
+time: O(N^2)
+space: O(N)
+*/
+var findNumberOfLIS = function(nums) {
+    const dp = new Array(nums.length).fill(1);
+    const count = new Array(nums.length).fill(1);
+    let max = 1;
+    let answer = 0;
+    
+    for(let i=1; i<nums.length; i++){
+        for(let j=0; j<i; j++){
+            if(nums[i]>nums[j]){
+                if(dp[j]+1 > dp[i]){
+                    dp[i] = dp[j]+1;
+                    count[i] = count[j];
+                } else if(dp[j]+1 === dp[i]){
+                    count[i] += count[j];
+                }
+            }
+        }
+        max = Math.max(max, dp[i]);
+    }
+    
+    for(let i=0; i<dp.length; i++){
+        if(dp[i]===max) answer+=count[i];
+    }
+
+    return answer;
+};

@@ -28,3 +28,27 @@
   
   return dp[dp.length-1];
 };
+
+
+/*
+수빈
+time: O(S^2*W)
+space:O(S)
+*/
+var wordBreak = function(s, wordDict) {
+    //base case
+    const dp= new Array(s.length+1).fill(false);
+    dp[0]=true;
+    
+    for(let i=0; i<s.length+1;i++){
+        for(let j=0; j<wordDict.length; j++){
+            const word = wordDict[j];
+            const word_len = word.length;
+            if(dp[i-word_len] && s.slice(i-word_len,i) === word){
+                dp[i]=true;
+            }
+        }
+    }
+    //console.log(dp)
+    return dp[dp.length-1];
+};

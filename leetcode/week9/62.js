@@ -41,3 +41,29 @@
   
   return dp[0][0];
 };
+
+
+/*
+수빈
+
+0 1
+1 2
+1 3
+
+0 1 1 1  1  1  1
+1 2 3 4  5  6  7
+1 3 6 10 15 21 28
+
+time: O(m*n)
+space: O(m*n)
+*/
+var uniquePaths = function(m, n) {
+    const dp = Array.from(Array(m), () => Array(n).fill(1));
+    
+    for(let i=1; i<m; i++){
+        for(let j=1; j<n; j++){
+            dp[i][j] = dp[i-1][j] + dp[i][j-1];
+        }
+    }
+    return dp[m-1][n-1];
+};

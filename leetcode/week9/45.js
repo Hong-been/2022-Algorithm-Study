@@ -19,3 +19,22 @@
   
   return jumpCnt;
 };
+
+
+/*
+수빈
+time: O(N)
+space: O(N)
+*/
+var jump = function(nums) {
+    if(nums.length===1) return 0;
+    
+    const dp = new Array(nums.length).fill(0);
+    for(let i=0; i<nums.length; i++){
+        for(let j=i+1; j<=i+nums[i]; j++){
+            if(dp[j]===0) dp[j]=dp[i]+1;
+            if(j===nums.length-1) break;
+        }
+    }
+    return dp[nums.length-1];
+};
