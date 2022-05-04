@@ -28,7 +28,7 @@
 /*
 수빈
 time: O(N)
-space: O(N)
+space: O(1)
 */
 var rob = function(nums) {
     // edge case
