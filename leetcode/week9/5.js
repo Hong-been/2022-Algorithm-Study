@@ -74,11 +74,7 @@ var longestPalindrome = function(s) {
     let answer = "";
     let maxLen = 0;
     const dp = Array.from(Array(s.length), () => Array(s.length).fill(false));
-    
-    for(let i=0; i<s.length; i++){
-        dp[i][i]=1;
-    }
-    
+        
     for(let i=s.length-1; i>=0; i--){
         for(let j=i; j<s.length; j++){
             if((s[i]===s[j]) && (j-i<=2 || dp[i+1][j-1])){

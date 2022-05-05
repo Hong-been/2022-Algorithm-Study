@@ -41,8 +41,8 @@ var numDecodings = function(s) {
     dp[1]=1;
     
     for(let i=2;i<s.length+1;i++){
-        let oneN=Number(s.slice(i-1,i)); //2
-        let twoN=Number(s.slice(i-2,i)); //26
+        let oneN=Number(s.slice(i-1,i));
+        let twoN=Number(s.slice(i-2,i));
         //앞의 한문자 볼때
         if(1<=oneN && oneN<=9) dp[i]+=dp[i-1];
         //console.log(dp[i]) ->0
