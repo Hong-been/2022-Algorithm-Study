@@ -19,3 +19,22 @@ for (let i = 2, cnt = 0; i < nums.length; i++){
   
 return ans;
 };
+
+
+/*
+수빈
+time: O(N)
+space: O(N)
+*/
+var numberOfArithmeticSlices = function(nums) {
+  const dp = new Array(nums.length).fill(0);
+  let answer = 0;
+  
+  for(let i=2; i<nums.length; i++){
+      if(nums[i]-nums[i-1] === nums[i-1]-nums[i-2]){
+          dp[i] = dp[i-1] + 1;
+          answer += dp[i];
+      }
+  }
+  return answer;
+};

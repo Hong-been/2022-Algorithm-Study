@@ -60,3 +60,31 @@ var longestPalindrome = function(s) {
   if(evenLen > oddLen) return s.substring(evenIndex[0],evenIndex[1]+1);
   return s.substring(oddIndex[0],oddIndex[1]+1);
 };
+
+
+/*
+수빈
+time: O(N^2)
+space: O(N^2)
+*/
+var longestPalindrome = function(s) {
+    //edge case
+    if(s.length === 1) return s[0];
+    
+    let answer = "";
+    let maxLen = 0;
+    const dp = Array.from(Array(s.length), () => Array(s.length).fill(false));
+        
+    for(let i=s.length-1; i>=0; i--){
+        for(let j=i; j<s.length; j++){
+            if((s[i]===s[j]) && (j-i<=2 || dp[i+1][j-1])){
+                dp[i][j] = true;   
+            }
+            if(dp[i][j] && j-i >= maxLen){
+                maxLen = j-i;
+                answer = s.slice(i, j+1);
+            }
+        }
+    }
+    return answer;
+};

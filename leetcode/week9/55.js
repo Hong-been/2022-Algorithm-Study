@@ -25,3 +25,26 @@
   
   return false;
 };
+
+
+/*
+수빈
+time: O(N)
+space: O(N)
+*/
+var canJump = function(nums) {
+    if(nums.length === 1) return true;
+    if(nums[0]===0) return false;
+    
+    const dp= new Array(nums.length).fill(false);
+    let maxIdx = 0;
+    
+    for(let i=0; i<nums.length; i++){
+        if(nums[i]===0 && i>=maxIdx) return false;
+        if(nums.length-1 <= i+nums[i]) return true;
+        
+        dp[i+nums[i]] = true;
+        maxIdx = Math.max(maxIdx, i+nums[i]);
+    }
+    return false;
+};

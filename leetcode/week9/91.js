@@ -24,3 +24,30 @@
   
   return dp[s.length-1];
 };
+
+
+/*
+수빈
+time: O(N)
+space: O(N)
+*/
+var numDecodings = function(s) {
+    //edge case
+    if(s[0]==="0") return 0;
+    if(s.length===1) return 1;
+    
+    const dp = new Array(s.length+1).fill(0);
+    dp[0]=1;
+    dp[1]=1;
+    
+    for(let i=2;i<s.length+1;i++){
+        let oneN=Number(s.slice(i-1,i));
+        let twoN=Number(s.slice(i-2,i));
+        //앞의 한문자 볼때
+        if(1<=oneN && oneN<=9) dp[i]+=dp[i-1];
+        //console.log(dp[i]) ->0
+        //앞의 두문자 볼때
+        if(10<=twoN && twoN<=26) dp[i]+=dp[i-2];
+    }
+    return dp[s.length];
+};
