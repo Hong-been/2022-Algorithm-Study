@@ -123,7 +123,7 @@ JavaScript로 푼 알고리즘 문제입니다.
 |  31  | [79. Word Search](https://leetcode.com/problems/word-search/) | [solution.js](./leetcode/week8/79.js) | Recursion / Backtracking | " |  🔥 |
 |  32  | [213. House Robber II](https://leetcode.com/problems/house-robber-ii/)| [solution.js](./leetcode/week9/213.js) | Dynamic Programming | 22.05.04 |  🔥 |
 |  33  | [55. Jump Game](https://leetcode.com/problems/jump-game/)| [solution.js](./leetcode/week9/55.js) | Dynamic Programming | " |   |
-|  34  | [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/)| [solution.js](./leetcode/week9/45.js) | Dynamic Programming | " |   |
+|  34  | [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/)| [solution.js](./leetcode/week9/45.js) | Dynamic Programming | " |  🔥 |
 |  35  | [62. Unique Paths](https://leetcode.com/problems/unique-paths/)| [solution.js](./leetcode/week9/62.js) | Dynamic Programming | " |   |
 |  36  | [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)| [solution.js](./leetcode/week9/5.js) | Dynamic Programming | "|   |
 |  37  | [413. Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)| [solution.js](./leetcode/week9/413.js) | Dynamic Programming | " |   |
